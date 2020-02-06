@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="jcrewTest"
+    errors="2" failures="1" hostname="" id="" package="jcrewTest" skipped="0"
+    tests="1" time="96.80" timestamp="">
+  
+    <testcase name="Test Layout3 Using Functions and Arrays" classname="jcrewTest" time="96.80" assertions="51">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;[id=&#34;address-form-zip&#34;]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;found&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5138ms)[0m">    at Page.checkOutFunction (C:\Users\littlestar\Documents\DevMountain\JCrew.com-Test-Plan\pageObjects\jcrewPO.js:21:14)
+    at Object.Test Layout3 Using Functions and Arrays (C:\Users\littlestar\Documents\DevMountain\JCrew.com-Test-Plan\Tests\jcrewTest.js:115:18)</failure>
+
+    <failure message="    at Page.checkOutFunction (C:\Users\littlestar\Documents\DevMountain\JCrew.com-Test-Plan\pageObjects\jcrewPO.js:21:14)">    at Object.Test Layout3 Using Functions and Arrays (C:\Users\littlestar\Documents\DevMountain\JCrew.com-Test-Plan\Tests\jcrewTest.js:115:18)</failure>
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TimeoutError: An error occurred while running .click() command on &lt;Element [name=@searchInput3]&gt;:   (Session info: chrome=79.0.3945.130),  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Windows NT 10.0.18362 x86_64); element click intercepted: Element &lt;input type=&#34;search&#34; aria-label=&#34;Site wide search&#34; class=&#34;nc-nav__search__input&#34; placeholder=&#34;Search J.Crew&#34; data-qaid=&#34;navDesktopSearchInput&#34; autocomplete=&#34;off&#34; autocapitalize=&#34;off&#34; autocorrect=&#34;off&#34;&gt; is not clickable at point (1020, 30). Other element would receive the click: &lt;iframe name=&#34;ju_iframe_519359&#34; data-ex=&#34;0&#34; title=&#34;JCrew%20Popup%20(Desktop)&#34; class=&#34;ju_iframe&#34; id=&#34;ju_iframe_519359&#34; tabindex=&#34;0&#34; allowtransparency=&#34;true&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; src=&#34;about:blank&#34; style=&#34;width:1263px;&#34; data-hj-allow-iframe=&#34;&#34;&gt;&lt;/iframe&gt;
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element click intercepted: Element &lt;input type=\&#34;search\&#34; aria-label=\&#34;Site wide search\&#34; class=\&#34;nc-nav__search__input\&#34; placeholder=\&#34;Search J.Crew\&#34; data-qaid=\&#34;navDesktopSearchInput\&#34; autocomplete=\&#34;off\&#34; autocapitalize=\&#34;off\&#34; autocorrect=\&#34;off\&#34;&gt; is not clickable at point (1020, 30). Other element would receive the click: &lt;iframe name=\&#34;ju_iframe_519359\&#34; data-ex=\&#34;0\&#34; title=\&#34;JCrew%20Popup%20(Desktop)\&#34; class=\&#34;ju_iframe\&#34; id=\&#34;ju_iframe_519359\&#34; tabindex=\&#34;0\&#34; allowtransparency=\&#34;true\&#34; scrolling=\&#34;no\&#34; frameborder=\&#34;0\&#34; src=\&#34;about:blank\&#34; style=\&#34;width:1263px;\&#34; data-hj-allow-iframe=\&#34;\&#34;&gt;&lt;/iframe&gt;&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=79.0.3945.130)&#34;,&#34;  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Windows NT 10.0.18362 x86_64)&#34;]},&#34;errorStatus&#34;:64,&#34;error&#34;:&#34;element click intercepted: Element &lt;input type=\&#34;search\&#34; aria-label=\&#34;Site wide search\&#34; class=\&#34;nc-nav__search__input\&#34; placeholder=\&#34;Search J.Crew\&#34; data-qaid=\&#34;navDesktopSearchInput\&#34; autocomplete=\&#34;off\&#34; autocapitalize=\&#34;off\&#34; autocorrect=\&#34;off\&#34;&gt; is not clickable at point (1020, 30). Other element would receive the click: &lt;iframe name=\&#34;ju_iframe_519359\&#34; data-ex=\&#34;0\&#34; title=\&#34;JCrew%20Popup%20(Desktop)\&#34; class=\&#34;ju_iframe\&#34; id=\&#34;ju_iframe_519359\&#34; tabindex=\&#34;0\&#34; allowtransparency=\&#34;true\&#34; scrolling=\&#34;no\&#34; frameborder=\&#34;0\&#34; src=\&#34;about:blank\&#34; style=\&#34;width:1263px;\&#34; data-hj-allow-iframe=\&#34;\&#34;&gt;&lt;/iframe&gt;&#34;,&#34;httpStatusCode&#34;:200}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+[0;31m  TimeoutError: An error occurred while running .moveToElement() command on &lt;Element [name=@quantity]&gt;:   (Session info: chrome=79.0.3945.130),  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Windows NT 10.0.18362 x86_64); unknown error: failed to parse value of getElementRegion
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;unknown error: failed to parse value of getElementRegion&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=79.0.3945.130)&#34;,&#34;  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Windows NT 10.0.18362 x86_64)&#34;]},&#34;errorStatus&#34;:13,&#34;error&#34;:&#34;unknown error: failed to parse value of getElementRegion&#34;,&#34;httpStatusCode&#34;:200}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
